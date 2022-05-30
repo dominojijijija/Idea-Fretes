@@ -1,0 +1,341 @@
+* {box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    border: 5px solid blue;
+    font-weight: bold;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding: 75px 50px;
+    margin: 0%;
+}
+.headerlogo{
+    position: relative;
+    top: 5%;
+}
+body{
+    background: linear-gradient(lightgreen,aqua, magenta);
+}
+
+h1{
+    color: blue;
+    border: 5px solid black;
+    font-size: 50px;
+    font-family: cursive;
+    background: magenta;
+
+}
+h2{
+    color: blue;
+    border: 2px solid black;
+    font-size: 32px;
+    font-family: cursive;
+    background: lightgreen;
+}
+h3{
+    color: magenta;
+}
+.footer{
+    font-size: 30px;
+    margin: 0px 30px;
+}
+.name {
+    background: lightgreen;
+    border: 2px solid black;
+    font-weight: bold;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inicio{
+    border: 5px solid black;
+    width: 90%;
+    margin: 0px 10px;
+  
+}
+.contacto{
+    background: black;
+    width: 90%;
+    margin: 0px 10px;
+    border: 10px solid blue;
+    padding: 75px 50px;
+}
+.listado{
+    font-size: 30px;
+    color: blue;
+    font-family: cursive;
+    
+}
+.tabla{
+    width: 95%;
+    margin: 0px 30px;
+    color: chartreuse;
+    background: black;
+    border-color: blue;
+    border-width: 30px;
+    font-size: 30px;
+
+}
+.ofertasyprec{
+    font-size: 30px;
+    color: blueviolet;
+    margin: 0px 30px;
+}
+.frente{
+    width: 98%;
+    margin: 0px 0px 0px 10px;   
+    
+}
+.google{
+    margin: 0px 30px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.presentacion{
+    margin: 0px 30px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.youtube{
+    margin: 0px 30px;
+
+}
+
+.index-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10%;
+
+}
+.index-item:nth-child(1){
+    border: 5px solid black;
+    background: blue;
+    height: fit-content
+}
+.index-item:nth-child(2){
+    border: 5px solid blue;
+    background: magenta;
+    height: fit-content
+}
+.index-item:nth-child(3){
+    border: 5px solid magenta;
+    background-color: green;
+    height: fit-content
+}
+.video{
+    width: 100%;
+}
+
+.prod_container{
+    background-color: linear-gradient(lightgreen,aqua, magenta);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 80%;
+    margin: auto;
+}
+
+.prod_item{
+    background-color: magenta;
+    color: white;
+    border: 5px solid black;
+    height: fit-content;
+    margin: auto;
+}
+.tela{
+    width: 100%;
+}
+
+@media (max-width: 480px){
+
+    .header {
+        color: black;
+        font-size: 8px;
+        padding: 0%;
+        margin: auto;
+    }
+    .headerlogo{
+        position: relative;
+        width: 50%;
+        top: 5%;
+    }
+    #buscar {
+        display: none;
+    }
+    body{
+        background: linear-gradient(to right, aquamarine, lightgreen, palevioletred);
+    }
+    
+    h1{
+        font-size: 8px;
+        background: rgb(229, 127, 255);
+    
+    }
+    h2{
+        font-size: 6px;
+        background: rgb(13, 228, 24);
+    }
+    h3{
+        color: rgb(154, 206, 33);
+        font-size: 5px;
+    }
+    .footer{
+        font-size: 8px;
+    }
+    .listado{
+        font-size: 8px;
+    }
+    .contacto{
+        background: greenyellow;
+        margin: 0px 4px;
+        border: 4px;
+        padding: 0%;
+    }
+    .name {
+        background: peachpuff;
+        border: 1px;
+        font-size: 8px;
+        color: black;
+        width: fit-content;
+    }
+    .presentacion{
+        margin: auto;
+        font-size: 10px;
+        color: rgb(245, 27, 27);
+    }
+
+    .google{
+        margin-left: 0px;
+        font-size: 10px;
+
+    }
+    .tabla{
+        width: 50%;
+        margin: 0px 5px;
+        color: rgb(64, 3, 245);
+        background: rgb(233, 14, 14);
+        border-color: rgb(8, 8, 8);
+        border-width: 10px;
+        font-size: 10px;
+    }
+    .ofertasyprec{
+        font-size: 10px;
+    }
+    .prod_container {
+        background: palevioletred;
+        color: black;
+        grid-template-columns: 1fr
+    }
+    .index-container{
+        background: green;
+        grid-template-columns: 1fr
+    }
+    .index-item:nth-child(1){
+        display: none;
+    }
+    .index-item:nth-child(2){
+        display: none;
+    }
+    .index-item:nth-child(3){
+        display: none;
+    }
+    .video{
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+
+    .header {
+        color: red;
+        font-size: 15px;
+        padding: 0%;
+    }
+    #buscar {
+        display: none;
+    }
+    body{
+        background: linear-gradient(to right, pink, orange, yellow);
+    }
+    
+    h1{
+        font-size: 10px;
+        background: aquamarine;
+    
+    }
+    h2{
+        font-size: 7px;
+        background: rgb(228, 63, 13);
+    }
+    h3{
+        color: green;
+        font-size: 5px;
+    }
+    .footer{
+        font-size: 15px;
+    }
+    .listado{
+        font-size: 15px;
+    }
+    .contacto{
+        background: green;
+        margin: 0px 5px;
+        border: 5px;
+        padding: 0%;
+    }
+    .name {
+        background: blue;
+        border: 1px;
+        font-size: 10px;
+        color: white;
+    }
+    .presentacion{
+        margin: 0px 10px;
+        font-size: 15px;
+        color: blue;
+    }
+
+    .google{
+        margin-left: 0px;
+        font-size: 15px;
+
+    }
+    .tabla{
+        width: 85%;
+        margin: 0px 10px;
+        color: orangered;
+        background: blue;
+        border-color: yellowgreen;
+        border-width: 15px;
+        font-size: 15px;
+    }
+    .ofertasyprec{
+        font-size: 15px;
+    }
+    .prod_container {
+        background: magenta;
+        color: white;
+        grid-template-columns: 1fr
+    }
+    .index-container{
+        background: palevioletred;
+        grid-template-columns: 1fr
+    }
+    .index-item:nth-child(1){
+        display: none;
+    }
+    .index-item:nth-child(2){
+        display: none;
+    }
+    .index-item:nth-child(3){
+        display: none;
+    }
+    .video{
+        display: none;
+    }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="./imagenes/_logo.jpeg">
+    <link rel="stylesheet" href="./css/style.css">
+
+    
+</head>
+<body>
+
+    <header class="header">
+
+        <div>
+        
+            <img src="./imagenes/logo_tijera.png" alt="" width=150px
+            height=75px; class="headerlogo">
+            
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="empresa.html">Empresa</a>
+            <a href="productos.html">Productos</a>
+            <a href="ofertas.html">Ofertas_mensuales</a>
+
+        </nav>
+
+        <div id="buscar">
+            
+            <p>Buscar</p><input type ="text">
+        </div>
+    
+    </header>
+
+    <main class="contacto">
+        <h1>Telas Graciela</h1>
+        <h2>Nos puedes contactar completando el siguiente formulario:</h2>
+
+        <form action="enviar.php" method="get" enctype="text/plain"></form>
+            <div class="name">
+        
+                <label for="nombre">Nombre y apellido</label>
+                <input type="text" id="nombre" placeholder="Ingrese nombre y apellido" required>
+            
+
+            </div>
+       
+            <div class="name">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Ingrese su email" required>
+            
+            </div>
+        
+            <div class="name"> 
+                <label for="Pass">Contraseña</label>
+                <input type="password" id="Pass" placeholder="Establezca su contraseña" required>
+            
+            </div>
+       
+            <div class="name">
+                <label for="consulta">Ingrese su consulta</label>
+                <textarea name="Consulta" id="consulta" cols="30" rows="5"></textarea>
+            
+
+            </div>
+      
+            <div class="name">
+                <label for="adj">Adjuntar archivo</label>
+                <input type="file" id="adj">
+            
+            </div>
+        
+            <input type="submit">
+            <input type="reset">
+
+
+            <h3>Lo contactaremos a la brevedad</h3>
+    </main>
+        
+    <footer class="footer">
+        <a href="index.html">Home</a>
+        <a href="empresa.html">Empresa</a>
+        <a href="productos.html">Productos</a>
+        <a href="ofertas.html">Ofertas_mensuales</a>
+
+    </footer>
+
+
+</body>
+</html>
