@@ -260,7 +260,7 @@ h3{
         display: none;
     }
     body{
-        background: linear-gradient(to right, pink, orange, yellow);
+        background: linear-gradient(to right, rgb(221, 17, 51), rgb(211, 240, 50), rgb(0, 217, 255));
     }
     
     h1{
