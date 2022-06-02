@@ -1,86 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
-    <link rel="shortcut icon" href="./imagenes/_logo.jpeg">
-    <link rel="stylesheet" href="./css/style.css">
-
-   
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos</title>
+  <link rel="shortcut icon" href="./imagenes/_logo.jpeg">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-    <header class="header">
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./imagenes/logo_tijera.png" alt="" width=150px
+          height=75px; class="headerlogo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</empresa></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="empresa.html">Empresa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ofertas.html">Ofertas_mensuales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contáctenos</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-danger" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
-        <div>
+  </header>
+
+  <main>
+
+    <h1>Telas Graciela</h1>
+    
+    <h2>A continuación te detallaremos nuestros productos</h2>
+
+    <ul class="listado">
         
-            <img src="./imagenes/logo_tijera.png" alt="" width=150px
-            height=75px; class="headerlogo">
-            
-        </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="empresa.html">Empresa</a>
-            <a href="ofertas.html">Ofertas_mensuales</a>
-            <a href="contacto.html">Contáctenos</a>
-
-        </nav>
-
-        <div id="buscar">
-            
-            <p>Buscar</p><input type ="text">
-        </div>
+      <ul>Productos
+        <ul>Cuerinas</ul>
+        <ul>Estampados</ul>
+        <ul>Polares</ul>
+        <ul>Hules</ul>
+        <ul>Tafetas</ul>
+      </ul>
     
-    </header>
+    </ul>
 
-    <main>
-
-        <h1>Telas Graciela</h1>
-    
-        <h2>A continuación te detallaremos nuestros productos</h2>
-
-        <ul class="listado">
-        
-            <ul>Productos
-                <ul>Cuerinas</ul>
-                <ul>Estampados</ul>
-                <ul>Polares</ul>
-                <ul>Hules</ul>
-                <ul>Tafetas</ul>
-            </ul>
-    
-        </ul>
-
-        <div class="prod_container">
-            <div class="prod_item">
-                <img src="./imagenes/tela_1.JPG" alt="tela_1" class="tela">
-            </div>
-            <div class="prod_item">
-                <img src="./imagenes/tela_2.JPG" alt="tela_2" class="tela">
-            </div>
-            <div class="prod_item">
-                <img src="./imagenes/tela_3.JPG" alt="tela_3" class="tela">
-            </div>
-            <div class="prod_item">
-                <img src="./imagenes/tela_4.JPG" alt="tela_4" class="tela">
-            </div>
-            <div class="prod_item">
-                <img src="./imagenes/tela_5.JPG" alt="tela_5" class="tela">
-            </div>
-            <div class="prod_item">
-                <img src="./imagenes/tela_6.JPG" alt="tela_6" class="tela">
-            </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imagenes/tela_1.JPG" class="d-block w-100" alt="tela1">
         </div>
+        <div class="carousel-item">
+          <img src="./imagenes/tela_2.JPG" class="d-block w-100" alt="tela2">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/tela_3.JPG" class="d-block w-100" alt="tela3">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/tela_4.JPG" class="d-block w-100" alt="tela4">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/tela_5.JPG" class="d-block w-100" alt="tela5">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/tela_6.JPG" class="d-block w-100" alt="tela6">
+        </div>   
+      </div>
+    </div>
+  </main>
 
-    </main>
+  <footer class="footer">
+    <button type="button" class="btn btn-outline-info"><a href="index.html">Home</a></button>
+    <button type="button" class="btn btn-outline-info"><a href="empresa.html">Empresa</a></button>
+    <button type="button" class="btn btn-outline-info"><a href="ofertas.html">Ofertas_mensuales</a></button>
+    <button type="button" class="btn btn-outline-info"><a href="contacto.html">Contáctenos</a></button>
+  </footer>
 
-    <footer class="footer">
-        <a href="index.html">Home</a>
-        <a href="empresa.html">Empresa</a>
-        <a href="ofertas.html">Ofertas_mensuales</a>
-        <a href="contacto.html">Contáctenos</a>
-    </footer>
-
+  
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

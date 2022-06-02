@@ -50,13 +50,6 @@ h3{
     color: blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.inicio{
-    border: 5px solid black;
-    width: 90%;
-    margin: 0px 10px;
-  
-}
 .contacto{
     background: black;
     width: 90%;
@@ -105,53 +98,6 @@ h3{
     margin: 0px 30px;
 
 }
-
-.index-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    gap: 10%;
-
-}
-.index-item:nth-child(1){
-    border: 5px solid black;
-    background: blue;
-    height: fit-content
-}
-.index-item:nth-child(2){
-    border: 5px solid blue;
-    background: magenta;
-    height: fit-content
-}
-.index-item:nth-child(3){
-    border: 5px solid magenta;
-    background-color: green;
-    height: fit-content
-}
-.video{
-    width: 100%;
-}
-
-.prod_container{
-    background-color: linear-gradient(lightgreen,aqua, magenta);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    width: 80%;
-    margin: auto;
-}
-
-.prod_item{
-    background-color: magenta;
-    color: white;
-    border: 5px solid black;
-    height: fit-content;
-    margin: auto;
-}
-.tela{
-    width: 100%;
-}
-
 @media (max-width: 480px){
 
     .header {
@@ -227,27 +173,6 @@ h3{
     .ofertasyprec{
         font-size: 10px;
     }
-    .prod_container {
-        background: palevioletred;
-        color: black;
-        grid-template-columns: 1fr
-    }
-    .index-container{
-        background: green;
-        grid-template-columns: 1fr
-    }
-    .index-item:nth-child(1){
-        display: none;
-    }
-    .index-item:nth-child(2){
-        display: none;
-    }
-    .index-item:nth-child(3){
-        display: none;
-    }
-    .video{
-        display: none;
-    }
 }
 @media (max-width: 767px) {
 
@@ -316,26 +241,5 @@ h3{
     }
     .ofertasyprec{
         font-size: 15px;
-    }
-    .prod_container {
-        background: magenta;
-        color: white;
-        grid-template-columns: 1fr
-    }
-    .index-container{
-        background: palevioletred;
-        grid-template-columns: 1fr
-    }
-    .index-item:nth-child(1){
-        display: none;
-    }
-    .index-item:nth-child(2){
-        display: none;
-    }
-    .index-item:nth-child(3){
-        display: none;
-    }
-    .video{
-        display: none;
     }
 }
