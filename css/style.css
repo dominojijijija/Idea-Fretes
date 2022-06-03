@@ -43,6 +43,9 @@ h3{
     font-size: 30px;
     margin: 0px 30px;
 }
+.video{
+    width: 100%;
+}
 .name {
     background: lightgreen;
     border: 2px solid black;
