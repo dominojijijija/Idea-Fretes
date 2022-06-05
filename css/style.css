@@ -20,6 +20,13 @@
 body{
     background: linear-gradient(lightgreen,aqua, magenta);
 }
+h1{
+    color: blue;
+    border: 2px solid black;
+    font-size: 36px;
+    font-family: cursive;
+    background: lightgreen;
+}
 h2{
     color: blue;
     border: 2px solid black;

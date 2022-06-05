@@ -1,1 +1,7 @@
-@import 'header';
+$colorPrincipal: green
+
+main
+    h1
+        color: $colorPrincipal
+
+@import 'footer';
