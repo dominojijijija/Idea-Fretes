@@ -1,0 +1,83 @@
+main{
+    background-color: aqua;
+    h1{
+        color: rgb(41, 92, 231);
+    }
+    h2{
+        color: magenta;
+        font-family: cursive;
+    }
+    h3{
+        color: orangered;
+    }
+    table{
+        width: 95%;
+        margin: 0px 30px;
+        color: chartreuse;
+        background: black;
+        border-color: blue;
+        border-width: 30px;
+        font-size: 30px;
+    }
+}
+.footer{
+    background-color: aqua;
+}
+@media (max-width: 480px){
+    body{
+        background: linear-gradient(to right, aquamarine, lightgreen, palevioletred);
+    }
+    .footer{
+        font-size: 8px;
+    }
+    main{
+        table{
+            width: 50%;
+            margin: 0px 5px;
+            color: rgb(64, 3, 245);
+            background: rgb(233, 14, 14);
+            border-color: rgb(8, 8, 8);
+            border-width: 10px;
+            font-size: 10px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    header{
+        color: red;
+        font-size: 15px;
+        padding: 0%;
+    }
+    body{
+        background: linear-gradient(to right, rgb(221, 17, 51), rgb(211, 240, 50), rgb(0, 217, 255));
+    } 
+    h1{
+        font-size: 10px;
+        background: aquamarine;
+    
+    }
+    h2{
+        font-size: 7px;
+        background: pink;
+    }
+    h3{
+        color: green;
+        font-size: 5px;
+    }
+    footer{
+        font-size: 15px;
+    }
+    main{
+        table{
+            width: 85%;
+            margin: 0px 10px;
+            color: orangered;
+            background: blue;
+            border-color: yellowgreen;
+            border-width: 15px;
+            font-size: 15px;
+        }
+    }
+}
+@import 'header'
+
