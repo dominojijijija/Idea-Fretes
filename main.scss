@@ -29,20 +29,6 @@ main{
 }
 */
 
-/* maps */
-
-$footer: (
-    home: blue,
-    empresa: red,
-    productos: green,
-    contáctenos: violet
-);
-
-@each $nombre, $valor in $footer {
-    .buton-#{$nombre} {
-        color: $valor;
-    }   
-}
 
 @media (max-width: 480px){
     body{
@@ -101,4 +87,19 @@ $footer: (
     }
 }
 @import 'header'
+
+/* maps */
+
+$footer: (
+    home: blue,
+    empresa: red,
+    productos: green,
+    contáctenos: violet
+);
+
+@each $nombre, $valor in $footer {
+    .buton-#{$nombre} {
+        color: $valor;
+    }   
+}
 
