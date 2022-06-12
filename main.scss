@@ -1,5 +1,7 @@
+$colorBox: aqua
+
 main{
-    background-color: aqua;
+    background-color: $colorBox;
     h1{
         color: rgb(41, 92, 231);
     }
