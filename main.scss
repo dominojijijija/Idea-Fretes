@@ -22,9 +22,28 @@ main{
         font-size: 30px;
     }
 }
+
+/*
 .footer{
     background-color: aqua;
 }
+*/
+
+/* maps */
+
+$footer: (
+    home: blue,
+    empresa: red,
+    productos: green,
+    contáctenos: violet
+);
+
+@each $nombre, $valor in $footer {
+    .buton-#{$nombre} {
+        color: $valor;
+    }   
+}
+
 @media (max-width: 480px){
     body{
         background: linear-gradient(to right, aquamarine, lightgreen, palevioletred);
