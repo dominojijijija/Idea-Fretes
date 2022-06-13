@@ -21,6 +21,17 @@ main{
     }
 }
 
+/* mixin */
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.footer{
+    @include flex-row-center
+}
+
+
 @media (max-width: 480px){
     body{
         background: linear-gradient(to right, aquamarine, lightgreen, palevioletred);
@@ -78,4 +89,3 @@ main{
     }
 }
 @import 'header'
-
