@@ -21,6 +21,10 @@ main{
     }
 }
 
+/* maps */
+
+@import 'variables'
+
 /* mixin */
 @mixin flex-row-center {
     display: flex;

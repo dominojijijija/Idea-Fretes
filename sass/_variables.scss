@@ -1,0 +1,12 @@
+/* maps */
+$footer: (
+    buton1: blue
+    buton2: red
+    buton3: green
+    buton4: violet
+);
+@each $nombre, $valor in $footer {
+    .icon-#{$nombre} {
+        color: $valor
+    }
+}

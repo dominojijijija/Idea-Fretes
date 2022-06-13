@@ -25,6 +25,9 @@ main table {
   font-size: 30px;
 }
 
+/*
+@import 'variables'
+
 /* mixin */
 .footer {
   display: -webkit-box;
