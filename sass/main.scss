@@ -1,5 +1,5 @@
 main{
-    background-color: $colorBox;
+    background-color: aquamarine;
     h1{
         color: rgb(41, 92, 231);
     }
@@ -20,13 +20,6 @@ main{
         font-size: 30px;
     }
 }
-
-/*
-.footer{
-    background-color: aqua;
-}
-*/
-
 
 @media (max-width: 480px){
     body{
@@ -85,21 +78,4 @@ main{
     }
 }
 @import 'header'
-
-$colorBox: aqua
-
-/* maps */
-
-$footer: (
-    home: blue,
-    empresa: red,
-    productos: green,
-    contáctenos: violet
-);
-
-@each $nombre, $valor in $footer {
-    .buton-#{$nombre} {
-        color: $valor;
-    }   
-}
 

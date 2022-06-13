@@ -1,5 +1,5 @@
 main {
-  background-color: aqua;
+  background-color: aquamarine;
 }
 
 main h1 {
@@ -23,10 +23,6 @@ main table {
   border-color: blue;
   border-width: 30px;
   font-size: 30px;
-}
-
-.footer {
-  background-color: aqua;
 }
 
 @media (max-width: 480px) {
