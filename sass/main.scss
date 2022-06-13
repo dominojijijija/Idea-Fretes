@@ -1,5 +1,3 @@
-$colorBox: aqua
-
 main{
     background-color: $colorBox;
     h1{
@@ -87,6 +85,8 @@ main{
     }
 }
 @import 'header'
+
+$colorBox: aqua
 
 /* maps */
 
