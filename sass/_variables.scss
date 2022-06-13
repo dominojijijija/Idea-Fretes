@@ -1,9 +1,9 @@
 /* maps */
 $footer: (
-    buton1: blue
-    buton2: red
-    buton3: green
-    buton4: violet
+    button1: blue
+    button2: red
+    button3: green
+    button4: violet
 );
 @each $nombre, $valor in $footer {
     .icon-#{$nombre} {

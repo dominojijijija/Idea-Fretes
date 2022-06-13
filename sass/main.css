@@ -1,3 +1,4 @@
+@import url(./_variables.scss);
 main {
   background-color: aquamarine;
 }
@@ -25,9 +26,7 @@ main table {
   font-size: 30px;
 }
 
-/*
-@import 'variables'
-
+/* maps */
 /* mixin */
 .footer {
   display: -webkit-box;
