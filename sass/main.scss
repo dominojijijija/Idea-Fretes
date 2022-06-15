@@ -23,8 +23,6 @@ main{
 
 /* maps */
 
-@import variables
-
 /* mixin */
 @mixin flex-row-center {
     display: flex;
@@ -92,4 +90,18 @@ main{
         }
     }
 }
-@import 'header'
+@import 'header';
+
+/* maps */
+
+$footer: (
+    button1: blue,
+    button2: red,
+    button3: green,
+    button4: violet,
+);
+@each $nombre, $valor in $footer {
+    .icon-#{$nombre} {
+        color: $valor
+    }
+}
