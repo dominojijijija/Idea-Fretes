@@ -7,7 +7,7 @@ main h1 {
 }
 
 main h2 {
-  color: magenta;
+  color: blue;
   font-family: cursive;
 }
 
@@ -25,27 +25,12 @@ main table {
   font-size: 30px;
 }
 
-/* maps */
-/* mixin */
-.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 @media (max-width: 480px) {
   body {
     background: -webkit-gradient(linear, left top, right top, from(aquamarine), color-stop(lightgreen), to(palevioletred));
     background: linear-gradient(to right, aquamarine, lightgreen, palevioletred);
   }
-  .footer {
+  .footer, .titulo {
     font-size: 8px;
   }
   main table {
@@ -133,4 +118,25 @@ header {
 .icon-button4 {
   color: violet;
 }
+
+/* map get */
+.footer, .titulo {
+  background: pink;
+}
+
+/* mixin */
+.footer, .titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Extend */
 /*# sourceMappingURL=main.css.map */

@@ -4,7 +4,7 @@ main{
         color: rgb(41, 92, 231);
     }
     h2{
-        color: magenta;
+        color: blue;
         font-family: cursive;
     }
     h3{
@@ -20,19 +20,6 @@ main{
         font-size: 30px;
     }
 }
-
-/* maps */
-
-/* mixin */
-@mixin flex-row-center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-}
-.footer{
-    @include flex-row-center
-}
-
 
 @media (max-width: 480px){
     body{
@@ -104,4 +91,32 @@ $footer: (
     .icon-#{$nombre} {
         color: $valor
     }
+}
+
+/* map get */
+
+$colores:(
+    base: aqua,
+    principal: blue,
+    fondo: pink
+);
+.footer {
+    background: map-get($colores, fondo)
+
+}
+
+/* mixin */
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.footer{
+    @include flex-row-center
+}
+
+/* Extend */
+
+.titulo {
+    @extend .footer
 }
