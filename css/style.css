@@ -92,6 +92,7 @@ h3{
 @media (max-width: 480px){
 
     .header {
+        display: flex;
         color: black;
         font-size: 8px;
         padding: 0%;
@@ -168,6 +169,7 @@ h3{
 @media (max-width: 767px) {
 
     .header {
+        display: flex;
         color: red;
         font-size: 15px;
         padding: 0%;
