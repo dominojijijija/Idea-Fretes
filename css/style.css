@@ -18,7 +18,7 @@
     top: 5%;
 }
 body{
-    background: linear-gradient(lightgreen,aqua, magenta);
+    background: lightskyblue;
 }
 h1{
     color: blue;
@@ -35,7 +35,7 @@ h2{
     background: lightgreen;
 }
 h3{
-    color: magenta;
+    color: black;
 }
 .footer{
     font-size: 30px;
@@ -66,18 +66,18 @@ h3{
 }
 .ofertasyprec{
     font-size: 30px;
-    color: blueviolet;
+    color: black;
     margin: 0px 30px;
 }
 .frente{
     width: 98%;
-    margin: 0px 0px 0px 10px;   
-    
+    margin: 0px 0px 0px 10px;  
 }
 .google{
     margin: 0px 30px;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 
 }
 .presentacion{
@@ -98,12 +98,22 @@ h3{
     border-width: 30px;
     font-size: 30px;
 }
+.carousel-inner{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.carousel-item{
+    width: 70%;
+}
+
 @media (max-width: 480px){
 
     .header {
         display: flex;
         color: black;
-        font-size: 8px;
+        font-size: 22px;
         padding: 0%;
         margin: auto;
     }
@@ -116,27 +126,27 @@ h3{
         display: none;
     }
     body{
-        background: linear-gradient(to right, aquamarine, lightgreen, palevioletred);
+        background: lightcoral;
     }
     
     h1{
-        font-size: 8px;
-        background: rgb(229, 127, 255);
+        font-size: 20px;
+        background: lightcoral;
     
     }
     h2{
-        font-size: 6px;
-        background: rgb(13, 228, 24);
+        font-size: 20px;
+        background: lightcoral;
     }
     h3{
-        color: rgb(154, 206, 33);
-        font-size: 5px;
+        color: lightcoral;
+        font-size: 18px;
     }
     .footer{
-        font-size: 8px;
+        font-size: 18px;
     }
     .listado{
-        font-size: 8px;
+        font-size: 18px;
     }
     .contacto{
         background: greenyellow;
@@ -147,101 +157,108 @@ h3{
     .name {
         background: peachpuff;
         border: 1px;
-        font-size: 8px;
+        font-size: 18px;
         color: black;
         width: fit-content;
     }
     .presentacion{
         margin: auto;
-        font-size: 10px;
-        color: rgb(245, 27, 27);
+        font-size: 18px;
+        color: black;
     }
 
     .google{
         margin-left: 0px;
-        font-size: 10px;
+        font-size: 18px;
+
 
     }
     .tabla{
         width: 50%;
         margin: 0px 5px;
-        color: rgb(64, 3, 245);
-        background: rgb(233, 14, 14);
+        color: black;
+        background: lightgreen;
         border-color: rgb(8, 8, 8);
         border-width: 10px;
-        font-size: 10px;
+        font-size: 18px;
     }
     .ofertasyprec{
-        font-size: 10px;
+        font-size: 18px;
+    }
+    .youtube{
+        display: none; 
     }
 }
 @media (max-width: 767px) {
 
     .header {
         display: flex;
-        color: red;
-        font-size: 15px;
+        color: purple;
+        font-size: 26px;
         padding: 0%;
     }
     #buscar {
         display: none;
     }
     body{
-        background: linear-gradient(to right, rgb(221, 17, 51), rgb(211, 240, 50), rgb(0, 217, 255));
+        background: lightpink;
     }
     
     h1{
-        font-size: 10px;
+        font-size: 22px;
         background: aquamarine;
     
     }
     h2{
-        font-size: 7px;
-        background: rgb(228, 63, 13);
+        font-size: 22px;
+        background: lightcoral;
     }
     h3{
-        color: green;
-        font-size: 5px;
+        color: royalblue;
+        font-size: 20px;
     }
     .footer{
-        font-size: 15px;
+        font-size: 20px;
     }
     .listado{
-        font-size: 15px;
+        font-size: 20px;
     }
     .contacto{
-        background: green;
+        background: lightgoldenrodyellow;
         margin: 0px 5px;
         border: 5px;
         padding: 0%;
     }
     .name {
-        background: blue;
+        background: lightpink;
         border: 1px;
-        font-size: 10px;
-        color: white;
+        font-size: 20px;
+        color: blueviolet;
     }
     .presentacion{
         margin: 0px 10px;
-        font-size: 15px;
+        font-size: 20px;
         color: blue;
     }
 
     .google{
         margin-left: 0px;
-        font-size: 15px;
+        font-size: 20px;
 
     }
     .tabla{
         width: 85%;
         margin: 0px 10px;
-        color: orangered;
-        background: blue;
-        border-color: yellowgreen;
+        color: blue;
+        background: lightskyblue;
+        border-color: blue;
         border-width: 15px;
-        font-size: 15px;
+        font-size: 20px;
     }
     .ofertasyprec{
-        font-size: 15px;
+        font-size: 20px;
+    }
+    .youtube{
+        display: none; 
     }
 }
